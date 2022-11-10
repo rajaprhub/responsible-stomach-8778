@@ -1,46 +1,66 @@
+
+
 .Body {
-    background-image: url(https://bestmediainfo.com/uploads/2020/01/UC-New-Logo_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    position: relative;
-    height: 550px;
-    display: felx;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    color: #fff;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  .color_overlay {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-  }
-  .Navbar {
-     position: relative; 
-    z-index: 2;
-  }
-  #box1 {
+  background-image: url(https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_412,dpr_2,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1643782427310-a8be7c.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  position: relative;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.color_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+}
+.Navbar {
+   position: relative; 
+  z-index: 2;
+}
+#box1 {
+  width: "50%";
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 460px;
+  left: 20%;
+}
+
+#box2{
     width: "50%";
-    margin: auto;
+  margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 460px;
-    left: 20%;
-  }
-  
-  #box2{
-      width: "50%";
-    margin: auto;
-      display: flex;
-      flex-direction: column;
-    justify-content: center;
-    align-items: center;
-      margin-top: 17%;
-  }
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    margin-top: 17%;
+}
+
+.loaction{
+     display: flex;
+     width: 90%;
+     gap: 0px;
+     justify-content: center;
+     align-items: center;
+     background-color: transparent;
+}
+
+#selloc{
+   background-color: whitesmoke;
+   color: black;
+   text-align: left;
+   margin-top: 10px;
+   padding: 2px;
+   border-radius: 5px;
+}

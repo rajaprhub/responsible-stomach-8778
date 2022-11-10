@@ -86,18 +86,33 @@ export default function Home() {
           <Text p={2} mt="10%">
       
           </Text>
+
+          
           <Heading p={2} size={["xl", "xl" ,"2xl"]} noOfLines={1}>
-            Home Services, on demand.
+             Quality Home Services, on demand.
           </Heading>
-          <Box p={9}>
+      
+        <div className="loaction "> 
+         <select  id="selloc"> 
+            <option value="">Mumbai</option>
+            <option value="" >Kolkata</option>
+            <option value="">Delhi</option>
+            <option value="" >Pune</option>
+         </select>
+         <Box p={9}>
             <Input
               size="md"
-              w={["20%","20%","40%"]}
+              w={["10%","50%","200%"]}
               p={8}
               bg="white"
               placeholder="Search Services"
             />
           </Box>
+
+
+        </div>
+         
+       
         </div>
         <div className="color_overlay"></div>
       </div>
@@ -107,7 +122,7 @@ export default function Home() {
           justifyContent="center"
           bg="white"
           p={6}
-          mt="20px"
+          mt="90px"
           boxShadow="2xl"
           rounded="md"
         >
