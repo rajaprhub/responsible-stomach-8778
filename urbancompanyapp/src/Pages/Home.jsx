@@ -9,8 +9,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 
+import HomeFooter from "../Components/Footer";
 import "./Home.css";
 import Box1 from "./Box";
+
+
 
 let arr = [
   {
@@ -147,6 +150,13 @@ export default function Home() {
           ))}
         </Flex>
       </div>
+         <div id="box3">
+
+           <HomeFooter/>
+         </div>
+            
     </div>
+       
+     
   );
 }
