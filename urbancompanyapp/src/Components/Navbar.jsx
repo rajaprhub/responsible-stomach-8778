@@ -57,34 +57,12 @@ export default function Navbar() {
 
           <Link>
             <Center>
-              <Login />
+              <Login/>
             </Center>
           </Link>
         </Flex>
       </Show>
-      <Hide above="1000px">
-        <Popover>
-          <PopoverTrigger>
-            <Button>
-              <HamburgerIcon w={8} h={8} onClick={handleSideBar} />
-            </Button>
-          </PopoverTrigger>
-          <PopoverContent>
-            <PopoverArrow />
-            <PopoverCloseButton />
-
-            <PopoverBody color="black">
-              <Grid gap="20px" p={8}>
-                <Link>Blog</Link>
-                <Link>Register As A Professional</Link>
-                <Link>
-                  <Login />
-                </Link>
-              </Grid>
-            </PopoverBody>
-          </PopoverContent>
-        </Popover>
-      </Hide>
+   
       <Box></Box>
     </Flex>
   );
