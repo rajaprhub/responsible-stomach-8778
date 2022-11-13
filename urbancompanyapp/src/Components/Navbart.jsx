@@ -89,7 +89,7 @@ export default function Navbar2() {
             <Text mt="15px">{arr[1].title}</Text>
           </Box>
         </Link>
-         <Link to="mensaloon">
+         <Link to="/womentherapis">
           <Box
             w="100%"
             p={{ base: 0, lg: 2 }}
@@ -127,7 +127,7 @@ export default function Navbar2() {
             <Text mt="15px">{arr[3].title}</Text>
           </Box>
         </Link>
-        <Link to="/womensaloon">
+        <Link to="/mentherapis">
           <Box
             w="100%"
             p={{ base: 0, lg: 2 }}
