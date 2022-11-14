@@ -90,7 +90,7 @@ export default function Mentherapis() {
         >
           <Box>
             <Heading>Massage for Men </Heading>
-             <p>&#9733; 4.85 (156k) </p>
+             <p> &#9733; 4.85 (156k) </p>
           </Box>
           <Box>
           <Image className="svideo"
@@ -246,17 +246,7 @@ export default function Mentherapis() {
 
      
       </Flex>
-      {/* <Grid bg="black" color="white" p={6} templateColumns="repeat(4, 1fr)">
-        <Box>
-          <Image
-            w="30%"
-            src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"
-          />
-        </Box>
-        <Box>
-          <Text>© 2014-22 UrbanClap Technologies India Pvt. Ltd.</Text>
-        </Box>
-      </Grid> */}
+    
     </Container>
   );
 }
