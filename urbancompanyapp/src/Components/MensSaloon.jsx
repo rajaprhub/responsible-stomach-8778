@@ -90,6 +90,7 @@ export default function MenSaloon() {
         >
           <Box>
             <Heading> Salon for Men </Heading>
+             <p>&#9733; 4.75 (974k) </p>
           </Box>
           <Box>
           <Image className="svideo"
@@ -137,7 +138,7 @@ export default function MenSaloon() {
               <Center>
                 <Image
                   rounded={"md"}
-                  src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_64,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1631189933595-01692d.png"
+                  src="https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_64,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1631190374864-78f3e8.jpeg"
                   alt="logo"
                 />
               </Center>
@@ -153,27 +154,12 @@ export default function MenSaloon() {
               <Center>
                 <Image
                   rounded={"md"}
-                  src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_64,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1631189857376-d49e47.png"
+                  src="https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_64,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1631189933595-01692d.png"
                   alt="logo"
                 />
               </Center>
 
-              <Text mt="15px">Facial & Cleanup</Text>
-            </Box>
-          </Link>
-
-          
-          <Link to="#Manicure" smooth>
-            <Box w="100%" _hover={{ bg: "#E2E8F0" }} p={2} variant="ghost">
-              <Center>
-                <Image
-                  rounded={"md"}
-                  src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_64,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1631189857376-d49e47.png"
-                  alt="logo"
-                />
-              </Center>
-
-              <Text mt="15px">Detan & Facials </Text>
+              <Text mt="15px">Hair Color </Text>
             </Box>
           </Link>
 
@@ -190,6 +176,22 @@ export default function MenSaloon() {
               <Text mt="15px">Shave /Beard Groomimg </Text>
             </Box>
           </Link>
+          
+          <Link to="#Manicure" smooth>
+            <Box w="100%" _hover={{ bg: "#E2E8F0" }} p={2} variant="ghost">
+              <Center>
+                <Image
+                  rounded={"md"}
+                  src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_64,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/home-screen/1631189857376-d49e47.png"
+                  alt="logo"
+                />
+              </Center>
+
+              <Text mt="15px">Detan & Facials </Text>
+            </Box>
+          </Link>
+
+       
 
           <Link to="#Manicure" smooth>
             <Box w="100%" _hover={{ bg: "#E2E8F0" }} p={2} variant="ghost">
@@ -233,17 +235,7 @@ export default function MenSaloon() {
 
      
       </Flex>
-      {/* <Grid bg="black" color="white" p={6} templateColumns="repeat(4, 1fr)">
-        <Box>
-          <Image
-            w="30%"
-            src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"
-          />
-        </Box>
-        <Box>
-          <Text>© 2014-22 UrbanClap Technologies India Pvt. Ltd.</Text>
-        </Box>
-      </Grid> */}
+   
     </Container>
   );
 }

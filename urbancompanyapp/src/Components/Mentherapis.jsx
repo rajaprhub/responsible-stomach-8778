@@ -90,11 +90,12 @@ export default function Mentherapis() {
         >
           <Box>
             <Heading>Massage for Men </Heading>
+             <p>&#9733; 4.85 (156k) </p>
           </Box>
           <Box>
           <Image className="svideo"
                   rounded={"md"}
-                  src="https://qph.cf2.quoracdn.net/main-qimg-4cba664b83ce18f3d50fd59d32ed0675-lq"
+                  src="https://i.ytimg.com/vi/9N1KCVEIVEk/maxresdefault.jpg"
                   alt="logo"
                 />
           </Box>

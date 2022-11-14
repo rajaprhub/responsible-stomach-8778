@@ -89,7 +89,8 @@ export default function WomenService() {
           alignItems="center"
         >
           <Box>
-            <Heading>Spa for women</Heading>
+            <Heading>Hair Studio for Women</Heading>
+            <p>&#9733; 4.78 (26k) </p>
           </Box>
           <Box>
           <Image className="svideo"
