@@ -89,12 +89,13 @@ export default function Womentherapis() {
           alignItems="center"
         >
           <Box>
-            <Heading>  Women Therapis </Heading>
+            <Heading> Spa for Women </Heading>
+            <p>&#9733; 4.85 (189k) </p>
           </Box>
           <Box>
           <Image className="svideo"
                   rounded={"md"}
-                  src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03185128/IMG_4651.jpg"
+                  src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03183722/IMG_4926.jpg"
                   alt="logo"
                 />
           </Box>
